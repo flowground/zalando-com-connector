@@ -1,0 +1,70 @@
+{
+    "type": "object",
+    "properties": {
+        "key": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "name": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "brandFamilyName": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "brandFamilyKey": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "page": {
+            "required": false,
+            "type": "string"
+        },
+        "pageSize": {
+            "required": false,
+            "type": "string"
+        },
+        "fields": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "Accept_Language": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "da-DK",
+                "de-AT",
+                "de-CH",
+                "de-DE",
+                "en-GB",
+                "es-ES",
+                "fi-FI",
+                "fr-BE",
+                "fr-CH",
+                "fr-FR",
+                "it-IT",
+                "nl-BE",
+                "nl-NL",
+                "no-NO",
+                "pl-PL",
+                "sv-SE"
+            ]
+        }
+    }
+}

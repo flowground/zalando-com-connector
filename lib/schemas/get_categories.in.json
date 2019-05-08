@@ -1,0 +1,93 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "type": {
+            "required": false,
+            "type": "string"
+        },
+        "outlet": {
+            "required": false,
+            "type": "string"
+        },
+        "hidden": {
+            "required": false,
+            "type": "string"
+        },
+        "targetGroup": {
+            "required": false,
+            "type": "string"
+        },
+        "key": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "parentKey": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "childKey": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "suggestedFilter": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "page": {
+            "required": false,
+            "type": "string"
+        },
+        "pageSize": {
+            "required": false,
+            "type": "string"
+        },
+        "fields": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "Accept_Language": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "da-DK",
+                "de-AT",
+                "de-CH",
+                "de-DE",
+                "en-GB",
+                "es-ES",
+                "fi-FI",
+                "fr-BE",
+                "fr-CH",
+                "fr-FR",
+                "it-IT",
+                "nl-BE",
+                "nl-NL",
+                "no-NO",
+                "pl-PL",
+                "sv-SE"
+            ]
+        }
+    }
+}

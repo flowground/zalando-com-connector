@@ -1,0 +1,576 @@
+{
+    "type": "object",
+    "properties": {
+        "articleId": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "articleModelId": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "articleUnitId": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "activationDate": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "thisWeek",
+                    "lastWeek",
+                    "lastMonth"
+                ],
+                "type": "string"
+            }
+        },
+        "ageGroup": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "babies",
+                    "kids",
+                    "teen",
+                    "adult"
+                ],
+                "type": "string"
+            }
+        },
+        "assortmentArea": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "standard",
+                    "maternity",
+                    "plusSize",
+                    "petite"
+                ],
+                "type": "string"
+            }
+        },
+        "brand": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "brandfamily": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "category": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "color": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "black",
+                    "brown",
+                    "beige",
+                    "gray",
+                    "white",
+                    "blue",
+                    "petrol",
+                    "turquoise",
+                    "green",
+                    "olive",
+                    "yellow",
+                    "orange",
+                    "red",
+                    "pink",
+                    "purple",
+                    "gold",
+                    "silver",
+                    "multicolored"
+                ],
+                "type": "string"
+            }
+        },
+        "den": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "den15",
+                    "den20",
+                    "den40",
+                    "den60",
+                    "den80",
+                    "den100",
+                    "den200",
+                    "den120",
+                    "den12",
+                    "den50"
+                ],
+                "type": "string"
+            }
+        },
+        "filling": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "angora",
+                    "baumwolle",
+                    "daunen",
+                    "fell",
+                    "fleece",
+                    "frottee",
+                    "kaschmir",
+                    "lammfell",
+                    "leder",
+                    "lederimitat",
+                    "merinowolle",
+                    "microfaser",
+                    "mohair",
+                    "satin",
+                    "schurwolle",
+                    "seide",
+                    "sonstige",
+                    "textil",
+                    "warm",
+                    "wolle"
+                ],
+                "type": "string"
+            }
+        },
+        "fullText": {
+            "required": false,
+            "type": "string"
+        },
+        "gender": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "male",
+                    "female"
+                ],
+                "type": "string"
+            }
+        },
+        "heelForm": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "block",
+                    "flat",
+                    "wedge",
+                    "penny",
+                    "funnel",
+                    "plateau",
+                    "plateauBoots",
+                    "wedgeHidden",
+                    "plateauHidden",
+                    "plateauHeels"
+                ],
+                "type": "string"
+            }
+        },
+        "heelHeight": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "xs",
+                    "s",
+                    "m"
+                ],
+                "type": "string"
+            }
+        },
+        "length": {
+            "required": false,
+            "type": "string"
+        },
+        "occasion": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "business",
+                    "octoberFest",
+                    "loungeWear",
+                    "evening",
+                    "party",
+                    "leisure"
+                ],
+                "type": "string"
+            }
+        },
+        "pattern": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "animalPrint",
+                    "checkered",
+                    "colored",
+                    "floral",
+                    "polkaDot",
+                    "striped",
+                    "paisley",
+                    "plain",
+                    "print",
+                    "burnout",
+                    "herringBone",
+                    "camouflage",
+                    "flecked",
+                    "pinstripe",
+                    "gradient",
+                    "photoPrint"
+                ],
+                "type": "string"
+            }
+        },
+        "price": {
+            "required": false,
+            "type": "string"
+        },
+        "sale": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "sale"
+                ],
+                "type": "string"
+            }
+        },
+        "season": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "winter",
+                    "summer"
+                ],
+                "type": "string"
+            }
+        },
+        "shaftHeight": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "xs",
+                    "s",
+                    "m",
+                    "l"
+                ],
+                "type": "string"
+            }
+        },
+        "shaftWidth": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "s",
+                    "m",
+                    "l"
+                ],
+                "type": "string"
+            }
+        },
+        "shirtCollar": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "lapelCollar",
+                    "mandarinCollar",
+                    "hood",
+                    "poloNeck",
+                    "poloShirt",
+                    "cowlNeck",
+                    "roundNeck",
+                    "scarfCollar",
+                    "boatNeck",
+                    "vNeck",
+                    "buttonDown",
+                    "turnDownCollar",
+                    "highCollar",
+                    "linedCollar",
+                    "shirtCollar",
+                    "cutawayCollar",
+                    "doubleCollar",
+                    "peterPanCollar",
+                    "kentCollar",
+                    "cupShapedCollar",
+                    "contrastCollar",
+                    "maoCollar",
+                    "wingCollar",
+                    "tabCollar",
+                    "volantCollar",
+                    "shawlCollar",
+                    "envelope",
+                    "lowVNeck",
+                    "cacheCeour",
+                    "lowRoundNeck",
+                    "backless",
+                    "henley",
+                    "squareNeck",
+                    "offTheShoulder"
+                ],
+                "type": "string"
+            }
+        },
+        "shoeFastener": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "buckle",
+                    "belt",
+                    "lacing",
+                    "open",
+                    "zipper",
+                    "velcro"
+                ],
+                "type": "string"
+            }
+        },
+        "shoeToecap": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "round",
+                    "pointed",
+                    "open",
+                    "square"
+                ],
+                "type": "string"
+            }
+        },
+        "shopArea": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "shop",
+                    "sale"
+                ],
+                "type": "string"
+            }
+        },
+        "size": {
+            "required": false,
+            "type": "string"
+        },
+        "sports": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "outdoor",
+                    "skiSnow",
+                    "running",
+                    "training",
+                    "football",
+                    "handball",
+                    "basketball",
+                    "volleyball",
+                    "golf",
+                    "tennis",
+                    "beach",
+                    "skate",
+                    "riding",
+                    "cycling",
+                    "sailing",
+                    "badminton",
+                    "dancing",
+                    "snowboard",
+                    "swimming"
+                ],
+                "type": "string"
+            }
+        },
+        "technology": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "clima365",
+                    "climacool",
+                    "climalite",
+                    "climaproof",
+                    "climawarm",
+                    "driFit",
+                    "flywire",
+                    "formotion",
+                    "omniHeat",
+                    "polartec",
+                    "primaloft",
+                    "staywarm",
+                    "techfit",
+                    "thinsulate",
+                    "venturi",
+                    "h2no",
+                    "dermizax",
+                    "performanceShell",
+                    "softShell",
+                    "windstopper",
+                    "proShell",
+                    "hydratic",
+                    "pacliteShell",
+                    "activeShell",
+                    "goreTex",
+                    "hyvent",
+                    "texapore",
+                    "precip"
+                ],
+                "type": "string"
+            }
+        },
+        "trouserRise": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "high",
+                    "medium",
+                    "low"
+                ],
+                "type": "string"
+            }
+        },
+        "upperMaterial": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "batiste",
+                    "caoutchouc",
+                    "cashmere",
+                    "damask",
+                    "down",
+                    "feathers",
+                    "felt",
+                    "flanelette",
+                    "flannel",
+                    "fleece",
+                    "imitationLeather",
+                    "jacquard",
+                    "jersey",
+                    "leather",
+                    "linen",
+                    "linon",
+                    "mesh",
+                    "microfiber",
+                    "mohair",
+                    "other",
+                    "percale",
+                    "polyester",
+                    "renforce",
+                    "satin",
+                    "seersucker",
+                    "silk",
+                    "synthetic",
+                    "textile",
+                    "towelling",
+                    "varnish",
+                    "velours",
+                    "viscose",
+                    "wool",
+                    "cord",
+                    "denim",
+                    "rib",
+                    "braided",
+                    "crocheted",
+                    "hardshell",
+                    "softshell",
+                    "lace",
+                    "sweat"
+                ],
+                "type": "string"
+            }
+        },
+        "volume": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "enum": [
+                    "smallest",
+                    "small",
+                    "medium",
+                    "large",
+                    "largest"
+                ],
+                "type": "string"
+            }
+        },
+        "page": {
+            "required": false,
+            "type": "string"
+        },
+        "pageSize": {
+            "required": false,
+            "type": "string"
+        },
+        "sort": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "popularity",
+                "activationdate",
+                "pricedesc",
+                "priceasc",
+                "sale"
+            ]
+        },
+        "fields": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "Accept_Language": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "da-DK",
+                "de-AT",
+                "de-CH",
+                "de-DE",
+                "en-GB",
+                "es-ES",
+                "fi-FI",
+                "fr-BE",
+                "fr-CH",
+                "fr-FR",
+                "it-IT",
+                "nl-BE",
+                "nl-NL",
+                "no-NO",
+                "pl-PL",
+                "sv-SE"
+            ]
+        }
+    }
+}
